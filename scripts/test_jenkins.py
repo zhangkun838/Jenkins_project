@@ -4,7 +4,7 @@ import allure
 class TestJenkins:
 
     def test_01(self):
-        assert 1
+        assert 0
 
     @allure.severity("critical")
     def test_02(self):
@@ -14,4 +14,4 @@ class TestJenkins:
         assert 1
 
 if __name__ == '__main__':
-    print(".....")
+    print("11")
